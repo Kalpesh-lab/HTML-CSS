@@ -1,0 +1,176 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Helvetica;
+}
+
+html, body{
+    height: 100%;
+    width: 100%;
+    /* background-color: rgb(178, 220, 217); */
+}
+
+#main{
+    height: 100%;
+    width: 100%;
+    /* background-color: aquamarine; */
+}
+
+#nav{
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-between;
+    width: 100%;
+    padding: 40px 60px;
+    background-color: rgb(244, 241, 241);
+}
+
+#nav-part1{
+    display: flex;
+    justify-content: space-between;
+    width: 40%;
+    
+}
+
+#nav-part2{
+    display: flex;
+    justify-content: space-between;
+    width: 35%;
+}
+
+#nav-part2 h4:hover{
+    cursor: pointer;
+    background-color: rgb(94, 98, 98);
+    box-shadow: 2px 2px 5px rgb(223, 140, 140); /*gives the shadow as per box size given*/
+    padding: 13px;
+    border-radius: 30px;
+    transition: .2s;
+    color: white;
+}
+
+#nav h3{
+    font-size: 25px;
+    font-weight: 600;
+}
+
+#nav h2{
+    font-size: 25px;
+    font-weight: 600;
+}
+
+#nav h4{
+    font-size: 25px;
+    font-weight: 600;
+}
+
+#content{
+    margin-top: 60px;
+    padding: 40px 65px;
+
+}
+
+#content h3{
+    font-size: 40px;
+    font-weight: 600;
+}
+
+#content h1{
+    margin-top: 45px;
+    font-size: 180px;
+    line-height: 170px;
+    font-weight: 500;
+    letter-spacing: -9px;
+    word-spacing: 12px;
+}
+
+#case{
+    padding: 40px 65px;
+    margin-top: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#case h4{
+    font-size: 26px;
+    font-weight: 500;
+}
+
+#case h5{
+    font-size: 26px;
+    font-weight: 500;
+}
+
+#right{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+#line{
+    height: 2px;
+    width: 160px;
+    background: #000;
+}
+
+#projects{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px 65px;
+    gap: 80px;
+}
+
+.elem {
+    width: 50%;
+}
+
+.elem-img{
+    height: 770px;
+    background-color: rgb(213, 218, 237);
+    width: 100%;
+    border-radius: 30px;
+    background-size: cover;
+    background-position: center;
+}
+
+#img1{
+    background-image: url(https://pagedone.io/asset/uploads/1707480017.png);
+}
+
+#img2{
+    background-image: url(https://cdn.dribbble.com/userupload/4088527/file/original-501a50e5ee1478bf6541b16d13272e44.png?resize=701x526&vertical=center);
+}
+
+.bottom{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px 0px;
+}
+
+.bottom i{
+    border: 2px solid black;
+    border-radius: 50px;
+    font-size: 22px;
+    padding: 15px 30px;
+}
+
+.bottom i:hover{
+    background-color: black;
+    color: white;
+    transition: .3s;
+    box-shadow: 5px 5px 5px rgb(230, 196, 196);
+}
+
+.bottom h2{
+    font-size: 40px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.bottom h4{
+    font-size: 22px;
+    color: rgb(157, 157, 157);
+}
